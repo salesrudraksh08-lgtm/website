@@ -1,16 +1,62 @@
-# React + Vite
+# RudrakhsEnt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A corporate website built with modern web technologies, featuring smooth animations and a responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework**: React 19
+- **Build Tool**: Vite
+- **Routing**: React Router DOM
+- **Animations**: GSAP (GreenSock Animation Platform)
+- **Icons**: Lucide React
+- **Linting**: ESLint
 
-## React Compiler
+## 📁 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `/src/pages` - Main application pages (Home, About, Services, Industries, Contact)
+- `/src/components` - Reusable UI components (Layout, etc.)
+- `/public` - Static assets
 
-## Expanding the ESLint configuration
+## 🛠️ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository (if applicable) or download the source code.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Run the development server with Hot Module Replacement (HMR):
+
+```bash
+npm run dev
+```
+
+### Building for Production
+
+Create a production-ready build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 📝 Scripts
+
+- `npm run dev`: Starts the Vite development server.
+- `npm run build`: Bundles the app into static files for production.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+- `npm run preview`: Previews the built production app locally.
