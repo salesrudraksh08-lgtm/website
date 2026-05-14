@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Building2 } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import './Footer.css';
 
 export default function Footer() {
@@ -8,11 +8,7 @@ export default function Footer() {
       <div className="container grid grid-4">
         <div className="footer-brand">
           <div className="footer-logo">
-            <Building2 size={32} color="var(--color-accent)" />
-            <div className="logo-text">
-              <span className="logo-title">RUDRAKSHA</span>
-              <span className="logo-subtitle">ENTERPRISES</span>
-            </div>
+            <img src="/images/logo.png" alt="Rudraksha Enterprises" className="footer-logo-img" />
           </div>
           <p className="footer-mission">
             Delivering integrated MEPF solutions with precision and professionalism through innovation, skilled people, and a commitment to quality.
@@ -49,7 +45,7 @@ export default function Footer() {
             </li>
             <li>
               <Mail size={18} className="contact-icon" />
-              <span>SALESRUDRAKSH08@GMAIL.COM</span>
+              <span>info@rudrakshsmartmep.com</span>
             </li>
             <li>
               <Phone size={18} className="contact-icon" />

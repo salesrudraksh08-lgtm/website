@@ -39,7 +39,7 @@ textarea.input-field {
   padding: 3rem;
   background:
     linear-gradient(145deg, rgba(8, 18, 34, 0.98), rgba(23, 52, 86, 0.96)),
-    url('/assets/images/hero-bg.png') center / cover;
+    url('/images/hero-page.png') center / cover;
   color: white;
 }
 

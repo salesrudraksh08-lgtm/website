@@ -14,7 +14,7 @@ export default function About() {
       <section className="section bg-white">
         <div className="container grid grid-2 align-center">
           <div className="about-image-wrapper image-frame">
-            <img src="/assets/images/about-engineers.png" alt="Engineers reviewing blueprints" />
+            <img src="/images/about_engineers.png" alt="Engineers reviewing blueprints" />
           </div>
           <div className="about-content">
             <span className="section-kicker">Who we are</span>

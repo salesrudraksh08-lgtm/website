@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Building2, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -11,11 +11,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <Building2 size={32} color="var(--color-accent)" />
-          <div className="logo-text">
-            <span className="logo-title">RUDRAKSHA</span>
-            <span className="logo-subtitle">ENTERPRISES</span>
-          </div>
+          <img src="/images/logo.png" alt="Rudraksha Enterprises" className="navbar-logo-img" />
         </Link>
 
         <button

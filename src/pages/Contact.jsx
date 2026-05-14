@@ -18,7 +18,7 @@ export default function Contact() {
       `Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
     );
 
-    window.location.href = `mailto:SALESRUDRAKSH08@GMAIL.COM?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@rudrakshsmartmep.com?subject=${subject}&body=${body}`;
     setStatus('Opening your email app...');
   };
 
@@ -85,7 +85,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3>Email</h3>
-                  <p className="text-muted">SALESRUDRAKSH08@GMAIL.COM</p>
+                  <p className="text-muted">info@rudrakshsmartmep.com</p>
                 </div>
               </div>
               
