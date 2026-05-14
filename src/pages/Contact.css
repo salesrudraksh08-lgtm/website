@@ -1,0 +1,101 @@
+.contact-form-card {
+  padding: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  font-size: 0.95rem;
+}
+
+textarea.input-field {
+  resize: vertical;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.contact-details-card {
+  padding: 3rem;
+  background:
+    linear-gradient(145deg, rgba(8, 18, 34, 0.98), rgba(23, 52, 86, 0.96)),
+    url('/assets/images/hero-bg.png') center / cover;
+  color: white;
+}
+
+.contact-details-card h2 {
+  color: white;
+}
+
+.contact-details-card .text-muted {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.contact-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.contact-icon-box {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent);
+  flex-shrink: 0;
+  box-shadow: var(--shadow-inset);
+}
+
+.contact-item h3 {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.map-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+@media (max-width: 768px) {
+  .contact-form-card,
+  .contact-details-card {
+    padding: 2rem;
+  }
+
+  .contact-item {
+    gap: 1rem;
+  }
+}

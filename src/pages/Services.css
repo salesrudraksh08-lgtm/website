@@ -1,0 +1,91 @@
+.services-hero-media {
+  padding-top: 2rem;
+}
+
+.services-hero-media .image-frame img {
+  height: 420px;
+  min-height: 420px;
+}
+
+.service-card {
+  padding: 3rem;
+  border-top: 4px solid var(--color-primary-light);
+}
+
+.service-card:nth-child(even) {
+  border-top-color: var(--color-accent);
+}
+
+.service-icon {
+  color: var(--color-accent);
+  margin-bottom: 1.5rem;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(249, 115, 22, 0.09);
+}
+
+.service-card h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-list {
+  list-style: none;
+}
+
+.service-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.service-list li::before {
+  content: '';
+  position: absolute;
+  left: 0.1rem;
+  top: 0.62rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.cta-banner {
+  background:
+    linear-gradient(135deg, rgba(8, 18, 34, 0.94), rgba(23, 52, 86, 0.86)),
+    url('/assets/images/hero-bg.png') center / cover;
+  color: white;
+  padding: 5rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.cta-banner h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.cta-banner p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    padding: 2rem;
+  }
+
+  .services-hero-media .image-frame img {
+    height: 300px;
+    min-height: 300px;
+  }
+}
